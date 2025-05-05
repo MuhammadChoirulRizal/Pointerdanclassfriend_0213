@@ -14,5 +14,5 @@ int main(){
     mahasiswa mhs;
     mhs.nim = 2024;
     mhs.showNim();
-
+    mahasiswa &refMhs = mhs;
 }
